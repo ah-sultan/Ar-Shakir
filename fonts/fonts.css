@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(./manrope/Manrope-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(./manrope/Manrope-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(./manrope/Manrope-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url(./manrope//Manrope-Bold.ttf);
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./poppins/Poppins-Bold.ttf);
+}

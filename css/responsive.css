@@ -1,0 +1,904 @@
+/*=== Max Width 992px ================ */
+
+@media screen and (max-width: 992px) {
+
+
+    h2 {
+        font-size: 43px;
+    }
+
+
+    .header {
+        padding: 1rem;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .header .navbar .nav-wrapper {
+        position: fixed;
+        height: 100Vh;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        left: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 101;
+        width: 0;
+        background: #fff;
+        padding: 30px 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+    }
+
+    .header .navbar .nav-wrapper.show {
+        width: 85%;
+        background: #fff;
+        padding: 30px;
+        visibility: visible;
+        opacity: 1;
+    }
+
+
+    .header .navbar .nav-wrapper ul {
+        text-align: left;
+    }
+
+    .header .navbar .nav-wrapper ul li {
+        display: block;
+        margin: 2rem 0;
+        border-bottom: 2px solid #eee;
+        padding-bottom: 1rem;
+    }
+
+    .header .navbar .button .btn {
+        font-weight: 600;
+        padding: 1.2rem 3.2rem;
+        line-height: 1.9rem;
+        border-radius: 0.7rem;
+    }
+
+    .header .navbar .mobile-menu {
+        display: flex;
+    }
+
+    /* hero Section Start */
+
+    .hero {
+        padding-bottom: 10.8rem;
+    }
+
+    .hero .content-section h1 {
+        font-size: 4.8rem;
+        line-height: 7rem;
+        margin-top: 10.4rem;
+    }
+
+    .hero .content-section {
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+
+    .hero .img-section {
+        text-align: center;
+        margin-top: 7.8rem;
+    }
+
+    .hero .img-section .img4 {
+        right: 4rem;
+    }
+
+    .brand .brand-logo {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        gap: 32px 52px;
+    }
+
+    .payment .img-section {
+        position: relative !important;
+        text-align: center;
+    }
+
+    .payment .payment-img {
+        margin-top: 11.3rem;
+        padding-left: 3.1rem;
+        max-width: 100%;
+    }
+
+    .sub-pera {
+        width: 588px;
+    }
+
+
+    .subscribe .text-section {
+        padding: 0 60px;
+        text-align: center;
+    }
+
+    .subscribe .form-section {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 5rem;
+    }
+
+    .teacher {
+        padding-top: 0;
+    }
+
+
+    .teacher .content-section {
+        padding: 0;
+        margin-top: 6rem;
+    }
+
+    .testimonial {
+        padding: 20.3rem 0 5.3rem;
+    }
+
+    .testimonial .testimonial-left {
+        margin: 0 auto;
+    }
+
+    .testimonial .testimonial-left .testimonial-info {
+        margin: 0 auto;
+    }
+
+    .testimonial .testimonial-right {
+        width: 63.3rem;
+        padding: 0;
+        margin: 4rem auto 0;
+    }
+
+
+    .testimonial .testimonial-slider-button {
+        justify-content: center;
+    }
+
+
+    .help .help-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px 0;
+        padding: 3.6rem;
+    }
+
+    .help .help-left {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .features .img-section {
+        padding-left: 2rem;
+        position: relative;
+        margin-top: 8rem;
+    }
+
+
+    .features .img-section .img2,
+    .features .img-section .img3,
+    .features .img-section .img4 {
+        left: 40%;
+    }
+
+    .features .img-section .img5 {
+        position: absolute;
+        bottom: -4.2rem;
+        right: 11rem;
+    }
+
+    .choose {
+        margin-top: 8rem;
+    }
+
+    .Choose-card {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .choose .card-box {
+        padding: 2.4rem;
+    }
+
+    .choose .card-box .card-img {
+        width: 8rem;
+    }
+
+    .choose .card-box .card-content {
+        width: 28.7rem;
+    }
+
+    .login .login-box {
+        margin-left: 3rem;
+        margin-top: 12.8rem;
+    }
+
+    .contact {
+        padding: 11.1rem 0 6.6rem 0;
+    }
+
+
+    .contact .item-block {
+        padding-left: 0;
+        margin-top: 6rem;
+    }
+
+}
+
+/* Max Width 992px End*/
+
+/*=== Max Width 768px =============*/
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 3.2rem;
+        margin-top: 1rem;
+        margin-bottom: 1.6rem;
+        line-height: 1.4;
+    }
+
+    .sub-pera {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .nav .menu {
+        margin-left: 0;
+    }
+
+    .nav .menu li {
+        display: inline-block;
+        margin-right: 1.5rem;
+    }
+
+
+    .nav .button .Sign-in-btn {
+        margin-right: 3.1rem;
+    }
+
+    .nav .button .btn {
+        padding: 1.5rem 2.4rem;
+        border-radius: 4.7rem;
+    }
+
+    .hero .hero-contant {
+        text-align: center !important;
+    }
+
+    .hero .hero-contant h1 {
+        margin-top: 8.4rem;
+        font-size: 4.8rem;
+        line-height: 6.5rem;
+    }
+
+    .hero .hero-contant p {
+        max-width: 60rem;
+        display: inline-block;
+    }
+
+    .hero .hero-btn {
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .hero .get-start .btn {
+        margin-right: 2rem;
+    }
+
+    .hero .img-section .img4 {
+        position: absolute;
+        right: -1.5rem;
+        top: 9.7rem;
+
+    }
+
+    .hero .img-section {
+        text-align: center;
+    }
+
+    .hero .img-section .img1 {
+        animation-name: movingy;
+        left: 2.5rem;
+    }
+
+    .hero .img-section .img3 {
+        animation-name: movingy;
+    }
+
+    .brand .brand-logo {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px 55px;
+        padding: 0 75px;
+    }
+
+    .payment {
+        text-align: center;
+        padding-bottom: 3.5rem;
+    }
+
+    .payment .payment-right h4 {
+        margin-top: 6rem;
+    }
+
+    .payment .content-section {
+        padding-left: 0;
+    }
+
+    .payment .content-section .sub-pera {
+        width: 100%;
+    }
+
+    .subscribe .subscribe-wrapper {
+        padding: 5.6rem 0;
+    }
+
+    .testimonial .testimonial-title h2 {
+        margin-bottom: 3.4rem;
+    }
+
+    .testimonial .testimonial-left .testimonial-info {
+        margin: 0;
+    }
+    .testimonial .testimonial-left {
+        width: 100%;
+    }
+    .testimonial .testimonial-left .testimonial-info {
+        width: 100%;
+    }
+
+    .testimonial .testimonial-info .testimonial-img {
+        top: 2rem;
+        left: 29rem;
+    }
+
+    .testimonial .testimonial-info .quast-shape {
+        top: 19.8rem;
+    }
+
+    .testimonial .testimonial-right {
+        width: 100%;
+    }
+
+    .features .img-section .img2, .features .img-section .img3, .features .img-section .img4 {
+        left: 52%;
+    }
+
+    .features .img-section .img4 {
+        top: 26.7rem;
+    }
+
+    .features .img-section .img3 {
+        top: 15.4rem;
+    }
+
+    .features .img-section .img5 {
+        display: none;
+    }
+
+    .copyright {
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .copyright-area .copyright-right {
+        text-align: left;
+    }
+}
+/* Max Width 768px End*/
+
+/*=== Max Width 540px =============*/
+
+@media screen and (max-width: 540px) {
+
+    body{
+        padding: 0 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+    }
+
+    .sub-pera {
+        font-size: 1.6rem;
+    }
+    .btn, .btn:hover, .btn:focus {
+        padding: 1.2rem 3.2rem;
+     }
+
+     .hero {
+        padding-bottom: 2rem;
+    }
+
+    .hero .content-section h1 {
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        margin-top: 5.4rem;
+    }
+
+    .hero .content-section p {
+        font-size: 1.8rem;
+    }
+
+    .hero .hero-btn {
+        flex-direction: column;
+        justify-content: left;
+        gap: 30px;
+        align-items: start !important;
+    }
+
+    .hero .img-section {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .hero .img-section .img4 {
+        display: none;
+    }
+
+    .brand .brand-logo {
+        padding: 0;
+    }
+    
+    .subscribe .text-section {
+        padding: 0 2rem;
+    }
+
+    .subscribe .subscribe-img {
+        display: none;
+    }
+
+    .subscribe .form-section {
+        padding: 3rem 2rem 0;
+    }
+
+    .subscribe .form-section input {
+        width: 100%;
+        height: 5rem;
+        font-size: 1.6rem;
+        padding: 1.2rem 1.8rem;
+    }
+    .subscribe .form-section input::placeholder{
+        font-size: 1.6rem;
+    }
+
+    .subscribe .form-section button {
+        height: 5rem;
+        width: 100%;
+        padding: 1.2rem 0;
+        font-size: 1.6rem;
+    }
+
+    .teacher .info-box .teacher-contact {
+        display: none;
+    }
+
+    .testimonial {
+        padding: 7rem 0;
+    }
+    
+    .testimonial .testimonial-title h2 {
+        width: 100%;
+        font-size: 3.2rem;
+        line-height: 4rem;
+    }
+
+    .testimonial .testimonial-info .abstrct-shape {
+        display: none;
+    }
+
+    .testimonial .testimonial-info .testimonial-img {
+        left: 13rem;
+    }
+
+    .testimonial .testimonial-info .testimonial-name-title {
+        top: 5rem;
+        left: 3.8rem;
+    }
+
+    .testimonial .testimonial-info .quast-shape {
+        display: none;
+    }
+
+    .testimonial .testimonial-info .testimonial-logo {
+        bottom: 2.3rem;
+        left: 2.5rem;
+        width: 12rem;
+    }
+
+    .help .help-right {
+        width: 100%;
+    }
+
+    .help .help-right a.btn {
+        margin-left:0;
+        padding: 1.2rem 6.4rem;
+        display: block;
+    }
+
+    .help .help-left p {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+
+    .features .img-section .img2, .features .img-section .img3, .features .img-section .img4 {
+        left: 53%;
+        max-width: 90%;
+    }
+    .features .img-section .img3 {
+        top: 13rem;
+    }
+
+    .features .img-section .img4 {
+        top: 23.7rem;
+    }
+
+    .choose .choose-abstract {
+        display: none;
+    }
+
+    .features .img-section .img4 {
+        top: 17.7rem;
+    }
+    .choose h2 {
+        line-height: 3.9rem;
+        margin-bottom: 3.9rem;
+    }
+    .choose-wrapper {
+        margin-top: 7.8rem;
+        padding: 4rem 0;
+    }
+
+    .Choose-card {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+    }
+
+    .choose .card-box .card-content h5 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .choose .card-box .card-content {
+        width: 100%;
+    }
+
+    .choose .card-box .card-content span {
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        letter-spacing: -0.02em;
+        color: var(--peregraph-color);
+    }
+
+    .choose .card-box {
+        padding: 2rem;
+    }
+    
+    .choose .card-box .card-content {
+        width: 100%;
+        padding-left: 1rem;
+    }
+
+    .login {
+        margin-top: 7rem;
+        background: var(--primary-color);
+        padding: 7rem 2rem 5.8rem;
+    }
+
+    .login h4 {
+        font-weight: 700;
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+        text-transform: uppercase;
+        color: var(--white-color);
+        margin: 0;
+        margin-top: 7rem;
+    }
+
+    .login h2 {
+        font-weight: 800;
+        font-size: 2.8rem;
+        line-height: 4rem;
+        color: var(--white-color);
+        margin-top: 1.3rem;
+        margin-bottom: 2.9rem;
+    }
+
+    .login p.sub-pera {
+        margin: 0;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        letter-spacing: -0.02em;
+        color: var(--white-color);
+    }
+
+    .login .login-box {
+        margin-left: 0;
+        margin-top: 6rem;
+    }
+
+    .login .login-right input {
+        width: 100%;
+        height: 5rem;
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .login .login-right button {
+        height: 5rem;
+        width: 100%;
+        padding: 1.1rem 0;
+        font-weight: 700;
+        font-size: 1.6rem;
+    }
+
+    .contact {
+        padding: 7rem 2rem;
+    }
+
+    .contact .item-block h5 {
+        font-size: 2rem;
+        margin-bottom: 2.4rem;
+    }
+
+    
+    .copyright-area {
+        padding: 1.9rem 2rem 2.3rem;
+        border-top: 0.1rem solid #404444;
+        background: #1B1C31;
+    }
+}
+
+/* Max Width 540px End*/
+
+
+/*=== Max Width 360px =============*/
+
+@media screen and (max-width: 360px) {
+
+    .wraper {
+        width: 360px;
+        padding: 0px 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        width: 100%;
+        line-height: 4.2rem;
+        margin-bottom: 2.6rem;
+    }
+
+    .sub-pera {
+        font-size: 1.6rem;
+    }
+
+    .btn {
+        padding: 1.2rem 3rem;
+    }
+
+    .nav .mobile-menu {
+        margin-top: 0rem;
+    }
+
+    .hero .img-section .img-section {
+        max-width: 100%;
+        margin-top: 2.8rem;
+    }
+
+    .hero .img-section .img4 {
+        position: absolute;
+        right: -1rem;
+        top: 3.5rem;
+        max-width: 60%;
+    }
+
+    .hero .img-section .img1 {
+        left: 50%;
+        top: 103%;
+        animation-name: none;
+        transform: translateX(-50%);
+    }
+
+    .hero .img-section .img2 {
+        top: inherit;
+        bottom: -29rem;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .hero .img-section .img3 {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        top: inherit;
+        bottom: -39rem;
+    }
+
+    .hero .hero-contant h1 {
+        margin-top: 39.4rem;
+        font-size: 3.5rem;
+        line-height: 7rem;
+        text-align: center;
+        line-height: 5rem;
+    }
+
+    .hero .hero-contant p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-btn {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hero .hero-btn .get-start {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .payment .payment-img {
+        padding-left: 0;
+    }
+
+    .payment .payment-img {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .payment .payment-left .img3 {
+        position: absolute;
+        right: 0;
+        top: 71px;
+        max-width: 100%;
+    }
+
+    .payment .payment-left .img1 {
+        left: 50%;
+        top: 37rem;
+        transform: translateX(-50%);
+        animation: none;
+
+    }
+
+    .payment .payment-left .img2 {
+        left: 50%;
+        top: 47rem;
+        transform: translateX(-50%);
+        animation: none;
+
+    }
+
+    .payment {
+        padding-bottom: 3.8rem;
+    }
+
+    .teacher-section {
+        margin-top: 4.6rem;
+    }
+
+    .subscribe {
+        padding: 4.5rem 2rem;
+    }
+
+    .client .client-left .client-info {
+        height: 31.8rem;
+    }
+
+    .client .client-info .client-logo {
+        bottom: 2.3rem;
+        left: 2.5rem;
+        max-width: 35%;
+    }
+
+    .client .client-info .client-img {
+        left: inherit;
+        right: 1.2rem;
+        max-width: 51%;
+    }
+
+    .client .client-info .client-name-title {
+        left: 2.8rem;
+    }
+
+    .client .client-info .quast-shape {
+        top: 20.8rem;
+        right: -1.4rem;
+        max-width: 17%;
+    }
+
+    .client .client-info .abstrct-shape {
+        position: absolute;
+        top: -0.7rem;
+        left: -1.5rem;
+        max-width: 25%;
+    }
+
+    .financy .financy-right .img2,
+    .financy .financy-right .img3,
+    .financy .financy-right .img4 {
+        max-width: 90%;
+    }
+
+    .choose {
+        margin-top: 10rem;
+    }
+
+    .choose .choose-abstract {
+        max-width: 22%;
+    }
+
+    .choose h2 {
+        line-height: 0;
+        margin-bottom: 6.9rem;
+    }
+
+
+    .choose .card-box {
+        flex-direction: column;
+        justify-content: center;
+        padding: 3rem 2rem;
+    }
+
+    .choose .card-box .card-content {
+        width: 100%;
+    }
+
+    .login-area {
+        margin-top: 4rem;
+    }
+
+    .login h4 {
+        margin-top: 4.1rem;
+    }
+
+    .login .login-box {
+        margin-top: 4.8rem;
+    }
+
+    .contact {
+        padding: 5.1rem 0;
+    }
+
+    .contact .contact-link {
+        flex-direction: column;
+        margin-top: 6rem;
+    }
+
+    .contact .contact-link {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .contact .item-box h5 {
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+
+    .contact .item-box h5::first-child {
+        margin-top: 0;
+    }
+
+    .contact .item-box ul .contact-item {
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+}
+
+/* Max Width 360px End*/
